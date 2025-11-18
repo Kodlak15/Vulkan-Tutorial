@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/00_base_code.dir/00_base_code.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

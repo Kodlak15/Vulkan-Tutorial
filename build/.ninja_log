@@ -1,0 +1,7 @@
+# ninja log v7
+3	411	1763440915826233058	CMakeFiles/00_base_code.dir/00_base_code.cpp.o.ddi	b662b4b3a7e7c441
+411	419	1763440916242489352	CMakeFiles/00_base_code.dir/CXX.dd	d7c5cfd284fe50c
+411	419	1763440916242489352	CMakeFiles/00_base_code.dir/CXXModules.json	d7c5cfd284fe50c
+411	419	1763440916242489352	CMakeFiles/00_base_code.dir/00_base_code.cpp.o.modmap	d7c5cfd284fe50c
+419	3453	1763440916242489352	CMakeFiles/00_base_code.dir/00_base_code.cpp.o	be66e71d97c7592c
+3455	3507	1763440919278185085	00_base_code/00_base_code	bb85f892056a3faf

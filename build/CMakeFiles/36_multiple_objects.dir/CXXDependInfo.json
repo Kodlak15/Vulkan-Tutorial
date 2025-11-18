@@ -1,0 +1,32 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build",
+	"dir-cur-src" : "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/attachments",
+	"dir-top-bld" : "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build",
+	"dir-top-src" : "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/attachments",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/nix/store/b7s067cq67mwjk3v78ssw82cs6zw6sbl-stb-0-unstable-2023-01-29/include/stb",
+		"_deps/ktx-src/include",
+		"_deps/tinygltf-src"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/CMakeFiles/36_multiple_objects.dir",
+	"sources" : 
+	{
+		"CMakeFiles/36_multiple_objects.dir/36_multiple_objects.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/attachments/36_multiple_objects.cpp"
+		}
+	}
+}

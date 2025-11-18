@@ -26,7 +26,7 @@
             vulkan-headers
             vulkan-loader
             vulkan-validation-layers
-            vulkan-tools # vkcube's build in nixpkgs is broken and disabled temporarily
+            vulkan-tools
             vulkan-tools-lunarg
             glslang
             glfw

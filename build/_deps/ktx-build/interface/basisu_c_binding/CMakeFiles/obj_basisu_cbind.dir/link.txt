@@ -1,2 +1,0 @@
-/nix/store/ag7fc58qzff4j1sgd7v98irhcr6vcg8v-gcc-wrapper-14.3.0/bin/ar qc libobj_basisu_cbind.a CMakeFiles/obj_basisu_cbind.dir/src/basisu_c_binding.cpp.o
-/nix/store/ag7fc58qzff4j1sgd7v98irhcr6vcg8v-gcc-wrapper-14.3.0/bin/ranlib libobj_basisu_cbind.a
