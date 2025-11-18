@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
