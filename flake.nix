@@ -73,10 +73,6 @@
             ]
             ++ [vulkan-profiles];
 
-          buildInputs = with pkgs; [
-            nlohmann_json
-          ];
-
           LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath (with pkgs;
             [
               vulkan-loader
@@ -92,6 +88,9 @@
               tinygltf
             ]
             ++ [vulkan-profiles]);
+
+          # Fixes build issue with tinygltf
+          CPLUS_INCLUDE_PATH = "${pkgs.nlohmann_json}/include/nlohmann";
 
           shellHook = ''
             exec zsh -c zellij
