@@ -15,8 +15,7 @@
 	"include-dirs" : 
 	[
 		"/nix/store/b7s067cq67mwjk3v78ssw82cs6zw6sbl-stb-0-unstable-2023-01-29/include/stb",
-		"_deps/ktx-src/include",
-		"_deps/tinygltf-src"
+		"_deps/ktx-src/include"
 	],
 	"language" : "CXX",
 	"linked-target-dirs" : [],

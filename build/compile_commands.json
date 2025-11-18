@@ -1,12 +1,6 @@
 [
 {
   "directory": "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build",
-  "command": "/nix/store/ag7fc58qzff4j1sgd7v98irhcr6vcg8v-gcc-wrapper-14.3.0/bin/g++ -std=c++11 -o _deps/tinygltf-build/CMakeFiles/loader_example.dir/loader_example.cc.o -c /home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-src/loader_example.cc",
-  "file": "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-src/loader_example.cc",
-  "output": "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/loader_example.dir/loader_example.cc.o"
-},
-{
-  "directory": "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build",
   "command": "/nix/store/ag7fc58qzff4j1sgd7v98irhcr6vcg8v-gcc-wrapper-14.3.0/bin/g++ -DASTCENC_AVX=2 -DASTCENC_F16C=1 -DASTCENC_NEON=0 -DASTCENC_POPCNT=1 -DASTCENC_SSE=41 -I/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-src/lib/astc-encoder/Source -std=c++14 -fPIC -Wall -Wextra -O3 -pthread -Wpedantic -Werror -Wshadow -Wdouble-promotion -Wno-unknown-warning-option -Wno-c++98-compat-pedantic -Wno-c++98-c++11-compat-pedantic -Wno-float-equal -Wno-deprecated-declarations -Wno-atomic-implicit-seq-cst -Wno-cast-align -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-shift-sign-overflow -Wno-format-nonliteral -Wno-reserved-identifier -Wno-cast-function-type -ffp-contract=off -mavx2 -mpopcnt -mf16c -Wno-unused-command-line-argument -o _deps/ktx-build/lib/astc-encoder/Source/CMakeFiles/astcenc-avx2-static.dir/astcenc_averages_and_directions.cpp.o -c /home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-src/lib/astc-encoder/Source/astcenc_averages_and_directions.cpp",
   "file": "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-src/lib/astc-encoder/Source/astcenc_averages_and_directions.cpp",
   "output": "/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-build/lib/astc-encoder/Source/CMakeFiles/astcenc-avx2-static.dir/astcenc_averages_and_directions.cpp.o"

@@ -99,15 +99,6 @@
 /home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/CMakeFiles/install.dir
 /home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/CMakeFiles/install/local.dir
 /home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/CMakeFiles/install/strip.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/loader_example.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/package.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/package_source.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/edit_cache.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/rebuild_cache.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/list_install_components.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/install.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/install/local.dir
-/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/CMakeFiles/install/strip.dir
 /home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-build/CMakeFiles/Experimental.dir
 /home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-build/CMakeFiles/Nightly.dir
 /home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-build/CMakeFiles/Continuous.dir

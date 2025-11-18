@@ -2,7 +2,6 @@
 	"InstallScripts" : 
 	[
 		"/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/cmake_install.cmake",
-		"/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build/cmake_install.cmake",
 		"/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-build/cmake_install.cmake",
 		"/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-build/interface/basisu_c_binding/cmake_install.cmake",
 		"/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/ktx-build/lib/astc-encoder/cmake_install.cmake",

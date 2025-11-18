@@ -1,4 +1,5 @@
 {
+  # TODO: issue with missing vulkan profiles header (see exercise 33)
   description = "Khronos Vulkan Tutorial";
 
   inputs = {
@@ -39,6 +40,7 @@
             nlohmann_json
             xorg.libXxf86vm
             shader-slang
+            tinygltf
           ];
 
           LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath (with pkgs; [

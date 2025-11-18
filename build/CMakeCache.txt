@@ -374,18 +374,11 @@ FETCHCONTENT_QUIET:BOOL=ON
 // for ktx
 FETCHCONTENT_SOURCE_DIR_KTX:PATH=
 
-//When not empty, overrides where to find pre-populated content
-// for tinygltf
-FETCHCONTENT_SOURCE_DIR_TINYGLTF:PATH=
-
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of ktx
 FETCHCONTENT_UPDATES_DISCONNECTED_KTX:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of tinygltf
-FETCHCONTENT_UPDATES_DISCONNECTED_TINYGLTF:BOOL=OFF
 
 //Path to a program.
 GITCOMMAND:FILEPATH=/home/cody/.nix-profile/bin/git
@@ -466,30 +459,10 @@ PKG_CONFIG_ARGN:STRING=
 PKG_CONFIG_EXECUTABLE:FILEPATH=/nix/store/skz92bkx4r4bp9ddczzsi02yrywmr1nc-pkgconf-wrapper-2.4.3/bin/pkgconf
 
 //Name of the computer/site where compile is being run
-SITE:STRING=cyrodil
+SITE:STRING=skyrim
 
 //Path to a program.
 SLANGC_EXECUTABLE:FILEPATH=/nix/store/mf59axw74vlkqjm8zsfk4iq3yzhv2xz3-shader-slang-2025.22/bin/slangc
-
-//Build glTF builder example
-TINYGLTF_BUILD_BUILDER_EXAMPLE:BOOL=OFF
-
-//Build GL exampels(requires glfw, OpenGL, etc)
-TINYGLTF_BUILD_GL_EXAMPLES:BOOL=OFF
-
-//Build loader_example(load glTF and dump infos)
-TINYGLTF_BUILD_LOADER_EXAMPLE:BOOL=ON
-
-//Build validator exampe
-TINYGLTF_BUILD_VALIDATOR_EXAMPLE:BOOL=OFF
-
-//On: header-only mode. Off: create tinygltf library(No TINYGLTF_IMPLEMENTATION
-// required in your project)
-TINYGLTF_HEADER_ONLY:BOOL=ON
-
-//Install tinygltf files during install step. Usually set to OFF
-// if you include tinygltf through add_subdirectory()
-TINYGLTF_INSTALL:BOOL=OFF
 
 //Value Computed by CMake
 VulkanTutorial_BINARY_DIR:STATIC=/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build
@@ -554,17 +527,8 @@ nlohmann_json_INCLUDE_DIR:PATH=/nix/store/797pixi3x7qaj9kvp5r2lz6p42ilyyav-nlohm
 //Path to a file.
 stb_INCLUDE_DIR:PATH=/nix/store/b7s067cq67mwjk3v78ssw82cs6zw6sbl-stb-0-unstable-2023-01-29/include/stb
 
-//Value Computed by CMake
-tinygltf_BINARY_DIR:STATIC=/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-build
-
 //Path to a file.
-tinygltf_INCLUDE_DIR:PATH=tinygltf_INCLUDE_DIR-NOTFOUND
-
-//Value Computed by CMake
-tinygltf_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-tinygltf_SOURCE_DIR:STATIC=/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-src
+tinygltf_INCLUDE_DIR:PATH=/nix/store/lb35qpsxyx819gb9p20imizakz0xvhph-tinygltf-2.9.7/include
 
 //Path to a file.
 tinyobjloader_INCLUDE_DIR:PATH=/nix/store/ya4625gxrwd2h6qajva1gcsbyjnq60n6-tinyobjloader-1.0.7/include
@@ -717,7 +681,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -795,7 +759,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_glm:INTERNAL=[/nix/store/qk8dlfsnwxyg462s64dzk982px
 //Details about finding stb
 FIND_PACKAGE_MESSAGE_DETAILS_stb:INTERNAL=[/nix/store/b7s067cq67mwjk3v78ssw82cs6zw6sbl-stb-0-unstable-2023-01-29/include/stb][v()]
 //Details about finding tinygltf
-FIND_PACKAGE_MESSAGE_DETAILS_tinygltf:INTERNAL=[$<BUILD_INTERFACE:/home/cody/Documents/dev/tutorials/Vulkan-Tutorial/build/_deps/tinygltf-src>;$<INSTALL_INTERFACE:include>][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_tinygltf:INTERNAL=[/nix/store/lb35qpsxyx819gb9p20imizakz0xvhph-tinygltf-2.9.7/include][v()]
 //Details about finding tinyobjloader
 FIND_PACKAGE_MESSAGE_DETAILS_tinyobjloader:INTERNAL=[/nix/store/ya4625gxrwd2h6qajva1gcsbyjnq60n6-tinyobjloader-1.0.7/include][v()]
 //ADVANCED property for variable: GITCOMMAND

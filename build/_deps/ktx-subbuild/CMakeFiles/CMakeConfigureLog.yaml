@@ -56,7 +56,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/"
       - "/run/current-system/sw/bin/"
       - "/nix/store/918ldr9axgh5kdmpp5fnj2n37pyghwbx-binutils-wrapper-2.44/bin/"
-      - "/nix/store/m0dmw6dn2nmdi46clp12zw0wz2wqhlfw-hyprland-guiutils-0.1.0+date=2025-11-10_66356e2/bin/"
+      - "/nix/store/w49qrf4w239pchb4kxlmv9y3ayc2nygx-hyprland-qtutils-0.1.5+date=2025-09-28_629b15c/bin/"
       - "/nix/store/kc5qpmifdfdwvfys37zggnbnsq3nvrzk-pciutils-3.14.0/bin/"
       - "/nix/store/skz92bkx4r4bp9ddczzsi02yrywmr1nc-pkgconf-wrapper-2.4.3/bin/"
       - "/nix/store/f1w6zhyw063pahxhi51kmppd76icjny0-ghostty-1.2.3/bin/"
@@ -114,7 +114,7 @@ events:
         - "/nix/var/nix/profiles/default/bin"
         - "/run/current-system/sw/bin"
         - "/nix/store/918ldr9axgh5kdmpp5fnj2n37pyghwbx-binutils-wrapper-2.44/bin"
-        - "/nix/store/m0dmw6dn2nmdi46clp12zw0wz2wqhlfw-hyprland-guiutils-0.1.0+date=2025-11-10_66356e2/bin"
+        - "/nix/store/w49qrf4w239pchb4kxlmv9y3ayc2nygx-hyprland-qtutils-0.1.5+date=2025-09-28_629b15c/bin"
         - "/nix/store/kc5qpmifdfdwvfys37zggnbnsq3nvrzk-pciutils-3.14.0/bin"
         - "/nix/store/skz92bkx4r4bp9ddczzsi02yrywmr1nc-pkgconf-wrapper-2.4.3/bin"
         - "/nix/store/f1w6zhyw063pahxhi51kmppd76icjny0-ghostty-1.2.3/bin"
@@ -126,5 +126,5 @@ events:
       - "/nix/store/44rvi6xdaaj9ii92n1crrdvj73nw9pbg-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:16 (project)"
     message: |
-      The system is: Linux - 6.17.7 - x86_64
+      The system is: Linux - 6.17.5 - x86_64
 ...
