@@ -1,5 +1,5 @@
 {
-  # TODO: issue with missing vulkan profiles header (see exercise 33)
+  # https://docs.vulkan.org/tutorial/latest/00_Introduction.html
   description = "Khronos Vulkan Tutorial";
 
   inputs = {
@@ -7,6 +7,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
+  # TODO: issue with missing vulkan profiles header (see exercise 33)
   outputs = inputs @ {flake-parts, ...}:
     flake-parts.lib.mkFlake {inherit inputs;} {
       systems = ["x86_64-linux" "aarch64-linux" "aarch64-darwin" "x86_64-darwin"];
