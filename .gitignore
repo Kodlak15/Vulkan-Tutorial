@@ -18,3 +18,5 @@ attachments/android/.gradle/**
 attachments/android/app/.cxx/**
 attachments/android/app/build/**
 local.properties
+
+build/

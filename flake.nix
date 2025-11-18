@@ -41,6 +41,7 @@
             nlohmann_json
             xorg.libXxf86vm
             shader-slang
+            ktx-tools
             tinygltf
           ];
 
@@ -54,6 +55,8 @@
             tinyobjloader
             stb
             nlohmann_json
+            ktx-tools
+            tinygltf
           ]);
 
           shellHook = ''

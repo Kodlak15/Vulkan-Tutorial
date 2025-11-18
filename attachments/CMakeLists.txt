@@ -17,7 +17,8 @@ find_package (glm REQUIRED)
 find_package (Vulkan REQUIRED)
 find_package (tinyobjloader REQUIRED)
 find_package (tinygltf REQUIRED)
-find_package (KTX REQUIRED)
+# find_package (KTX REQUIRED)
+find_package (Ktx REQUIRED)
 
 # set up Vulkan C++ module only if enabled
 if(ENABLE_CPP20_MODULE)
