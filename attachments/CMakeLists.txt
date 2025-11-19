@@ -4,6 +4,9 @@ project (VulkanTutorial)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/CMake")
 
+# I added this
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Add option to enable/disable C++ 20 module
 option(ENABLE_CPP20_MODULE "Enable C++ 20 module support for Vulkan" OFF)
 

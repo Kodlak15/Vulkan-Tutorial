@@ -17,10 +17,13 @@
         system,
         ...
       }: let
-        vulkan-profiles = pkgs.callPackage ./nix/libs/vulkan-profiles.nix {inherit pkgs;};
         pkgs = import inputs.nixpkgs {
           inherit system;
-          overlays = [(final: prev: {vulkan-profiles = vulkan-profiles;})];
+          overlays = [
+            (final: prev: {
+              vulkan-profiles = pkgs.callPackage ./nix/packages/vulkan-profiles.nix {inherit pkgs;};
+            })
+          ];
         };
       in {
         devShells.default = import ./nix/shells/default.nix {inherit pkgs;};

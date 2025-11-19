@@ -20,3 +20,4 @@ attachments/android/app/build/**
 local.properties
 
 build/
+attachments/build/
